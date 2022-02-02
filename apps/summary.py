@@ -8,7 +8,7 @@ Created on Mon Dec 13 22:00:42 2021
 import streamlit as st
 from io import StringIO
 import string
-import nltk
+import nltk.corpus
 import pandas as pd
 # =============================================================================
 # import bs4 as bs
