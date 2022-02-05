@@ -7,6 +7,8 @@ Created on Mon Dec 13 22:00:42 2021
 # import streamlit
 import streamlit as st
 from io import StringIO
+import nltk
+nltk.download('punkt')
 import string
 import nltk.corpus
 import pandas as pd
