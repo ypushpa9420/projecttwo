@@ -9,6 +9,7 @@ import streamlit as st
 from io import StringIO
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 import string
 import nltk.corpus
 import pandas as pd
