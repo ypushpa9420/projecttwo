@@ -5,6 +5,11 @@ Created on Mon Dec 13 22:00:42 2021
 @author: Pushpa Yadav
 """
 # import streamlit
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 import streamlit as st
 import string
 import nltk.corpus
