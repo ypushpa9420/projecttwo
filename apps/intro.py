@@ -28,8 +28,7 @@ def app():
     st.write(" 1. Choose Summary option from drop down")
     st.write(" 2. Select file from your desktop or choose web scrapping option or choose option to type")
     st.write(" 3. Once file is processed this web application will provide some basis information of words and summary of your text")
-    image = Image.open('./nwp.png')
-    st.image(image, caption='Text Summarization')
+    
 
 
 
